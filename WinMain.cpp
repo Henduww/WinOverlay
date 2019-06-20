@@ -7,7 +7,7 @@ HWND CreateFullScreenWindow(HINSTANCE);
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
 	HWND hwnd;
-	MSG	msg;
+	MSG msg;
 
 	hwnd = CreateFullScreenWindow(hInstance);
 
